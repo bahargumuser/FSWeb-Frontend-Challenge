@@ -16,10 +16,10 @@ const Header = () => {
       </div>
       <div className="pb-12"></div>
   
-          <h1 className="font-mono pt-16 mt-[120px] lg:mt-2 text-center text-2xl lg:text-5xl text-[#a5b4fc] font-bold  ">
+          <h1 className="font-mono pt-16 mt-[120px] lg:mt-2 text-center text-2xl lg:text-5xl text-[#a5b4fc] font-bold lg:font-mono ">
             I'm a Full Stack Developer
           </h1>
-          <p className="font-mono  pt-10 leading-7 text-[#373737] text-center text-sm lg:text-base">
+          <p className="font-mono  pt-10 leading-7 text-[#414a4c] text-center text-sm lg:text-base">
           Hello, I am Bahar Gumuser.
           If you are looking for a developer and my profile interests you, you can contact me!"
           </p>

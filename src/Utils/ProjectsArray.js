@@ -50,6 +50,7 @@ const projectsArray = () => {
     <>
       {myList.map((list) => (
         <div key={list.name} className="project-card-container">
+
           <img src={list.pic} alt={list.name} className="projectImg" />
           <div className="text-card">
             <h2>{list.name}</h2>
