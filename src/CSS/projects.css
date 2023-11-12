@@ -87,7 +87,6 @@
   font-weight: 40;
   line-height: 16px;
   letter-spacing: -0.05em;
-
   padding: 8px 10px 9px;
   gap: 150px;
   width: 90px;
@@ -120,7 +119,10 @@
 @media only screen and (max-width: 1160px) {
   .section-project {
     min-height: 490vh;
-    padding-top: 0vh;
+
+   display: grid;
+   flex-wrap: wrap;
+   width: 100vw;
   }
   .section-profile-header {
     text-align: left;
