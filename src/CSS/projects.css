@@ -238,3 +238,14 @@ padding-top: -80vw;
     align-items: center;
   }
 }
+@media only screen and (max-width: 1024px) {
+  .section-project {
+    width: 100%;
+  }
+  .project-card-container {
+    width: 100%;
+  }
+  .text-card {
+    text-align: center;
+  }
+}
