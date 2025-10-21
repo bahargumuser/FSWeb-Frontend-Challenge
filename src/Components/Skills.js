@@ -10,12 +10,12 @@ import "../CSS/skills.css";
 const Skills = () => {
   return (
     <section
-      className="section-skills"
+      className="section-skills" id="skills"
       class="min-h-[80vh] md:min-h-screen items-center bg-[#ffff] pl-3 md:flex-row lg:flex-row flex-col-reverse pt-16 pb-16 "
     >
       <h2
         class="header-skills"
-        className="text-center lg:text-center font-mono p-8 mb-4 text-2xl lg:text-4xl font-bold text-[#a5b4fc]  pt-16 pb-16 "
+        className="font-sans text-4xl lg:text-5xl font-extrabold text-center text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500"
       >
         My Skill Set
       </h2>

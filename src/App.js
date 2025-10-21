@@ -1,5 +1,6 @@
 import "./App.css";
  import Header from "./Components/Header";
+ import Portfolio from "./Components/Portfolio";
 import Skills from "./Components/Skills";
 import Profile from "./Components/Profile";
 import Projects from "./Components/Projects";
@@ -9,6 +10,7 @@ function App() {
   return (
     <>
       <Header />
+      <Portfolio />
       <Skills />
       <Projects />
       <Profile />
