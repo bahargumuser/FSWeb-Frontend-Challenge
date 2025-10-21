@@ -49,28 +49,36 @@ const projectsArray = () => {
   return (
     <>
       {myList.map((list) => (
-        <div key={list.name} className="project-card-container">
+        <div key={list.name} className="bg-white shadow-xl rounded-2xl overflow-hidden transform transition duration-500 hover:-translate-y-2 hover:shadow-2xl flex flex-col">
 
-          <img src={list.pic} alt={list.name} className="projectImg" />
-          <div className="text-card">
-            <h2>{list.name}</h2>
-            <p className="description-project">{list.description}</p>
-            <div className="tags--project">
+          <img src={list.pic} alt={list.name} className="w-full h-56 object-cover" />
+          <div className="p-6 flex flex-col justify-between flex-1">
+            <h2 className="text-2xl font-semibold text-indigo-600 mb-2">{list.name}</h2>
+            <p className="text-gray-600 text-sm mb-4">{list.description}</p>
+            <div className="flex flex-wrap gap-2 mb-4">
               {list.tags.map((tag) => (
-                <p className="text-project-tag">{tag}</p>
+                <span
+                  key={tag}
+                  className="bg-indigo-100 text-indigo-600 text-xs px-3 py-1 rounded-full font-medium"
+                >
+                  {tag}
+                </span>
               ))}
             </div>
-            <div className="links-projects">
-            <a href={list.vercel} target="_blank">
-                View Site
+            <div className="flex gap-4 mt-auto">
+            <a href={list.vercel} target="_blank" rel="noopener noreferrer"
+                  className="text-sm font-semibold text-indigo-500 hover:text-indigo-700">
+                View Site ↗
               </a>
-              <a href={list.github} target="_blank">
-                View GitHub
+              <a href={list.github} target="_blank" rel="noopener noreferrer"
+                className="text-sm font-semibold text-gray-500 hover:text-gray-800" > 
+                View GitHub ↗
               </a>
               
               {list.githubbe && (
-                <a href={list.githubbe} target="_blank">
-                View GitHub Be
+                <a href={list.githubbe} target="_blank" rel="noopener noreferrer"
+                className="text-sm font-semibold text-gray-500 hover:text-gray-800" >
+                View GitHub Backend ↗
               </a>
               )}
               
