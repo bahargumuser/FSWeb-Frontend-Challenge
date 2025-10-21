@@ -4,7 +4,7 @@ import "../CSS/profile.css";
 
 const Profile = () => {
   return (
-    <section className="section-profile">
+    <section id="profile" className="section-profile">
        <h1>About Me</h1>
       
       <div className="profile-left">
