@@ -4,7 +4,7 @@ import React from "react";
 const Footer = () => {
   return (
     <div className="">
-    <section className="  h-screen flex justify-center  items-center">
+    <section id="contact" className="h-screen flex justify-center  items-center">
       <div className="   border-2 border-[#a5b4fc] rounded-lg p-6 lg:p-6 pr-2  w-5/6 lg:w-auto font-mono text-center text-l lg:text-xl text-[#414a4c] lg:justify-center items-center">
         <p className="pt-6 flow-root ">Got a question or proposal, or just want to say hello?</p>
         <p className="mt-4">Go ahead,</p>
